@@ -8,6 +8,7 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
+import retrofit2.http.Query;
 
 public interface TMDBClient {
 
@@ -15,5 +16,5 @@ public interface TMDBClient {
     Call<Movie> getMovieById (@Path("id") long id);
 
     @GET("movie/top_rated?api_key=3eddf8084ea6fa36ad49227fd10e46cc&language=en-US")
-    Call<Result> getTopRatedMovies();
+    Call<Result> getTopRatedMovies(@Query("page") int pageNumber);
 }
