@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TMDBmf</string>
+    <string name="button_search">Search movies by ID</string>
+    <string name="button_discover">Discover new movies</string>
+
+    <string name="search_field">Movie ID</string>
+    <string name="search_button_search">Search</string>
+    <string name="search_movie_title"></string>
+    <string name="search_movie_language"></string>
+    <string name="search_movie_popularity"></string>
+</resources>
